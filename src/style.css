@@ -1,0 +1,124 @@
+body {
+  background: #dddddd;
+}
+
+.navbar-nav {
+  padding-left: 250px;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero {
+  padding: 180px 20px;
+  text-align: center;
+  background: url("/Images/banner.jpg");
+}
+
+.hero h1 {
+  font-size: 50px;
+}
+
+.hero h2 {
+  font-size: 30px;
+}
+
+.hero h1,
+.hero h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.box {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 2px 0 0 #e5e5e5;
+  margin: -110px 100px;
+  padding: 80px;
+  font-family: "Poppins", sans-serif;
+}
+
+.oferta {
+  text-align: center;
+}
+
+.oferta p {
+  line-height: 1.5;
+}
+
+.employee-section h3 {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.contact {
+  text-align: center;
+  border: 20px;
+}
+
+.contact h2 {
+  font-size: 18px;
+}
+
+.email-link a {
+  color: black;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+
+.email-link a:hover {
+  color: coral;
+}
+
+.social-links a {
+  font-size: 18px;
+  padding: 10px 14px;
+  margin: 0 20px;
+  color: coral;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+  background: #f9f7fe;
+}
+
+.social-links a:hover {
+  color: #f9f7fe;
+  background: coral;
+}
+
+@media (max-width: 576px) {
+  .navbar-nav {
+    padding-left: 0;
+  }
+
+  .box {
+    margin: -110px 27px;
+    padding: 20px;
+  }
+
+  .hero h2 {
+    font-size: 20px;
+  }
+
+  .oferta p {
+    font-size: 16px;
+  }
+
+  .employee-section h3 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .employee-section p {
+    text-align: center;
+  }
+
+  .email-link a {
+    font-size: 20px;
+  }
+
+  .social-links a {
+    font-size: 22px;
+  }
+}
