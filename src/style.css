@@ -101,7 +101,7 @@ body,
   background: coral;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .navbar-nav {
     padding-left: 0;
   }
