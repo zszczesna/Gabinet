@@ -37,7 +37,7 @@ body,
 }
 
 .box-about {
-  margin: -110px 40px;
+  margin: -110px 75px;
   padding: 30px;
 }
 
@@ -93,11 +93,11 @@ body,
   color: coral;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
-  background: #f9f7fe;
+  background: #fff;
 }
 
 .social-links a:hover {
-  color: #f9f7fe;
+  color: #fff;
   background: coral;
 }
 
@@ -114,6 +114,10 @@ body,
   .box-about {
     margin: -120px 0;
     padding: 15px;
+  }
+
+  .hero h1 {
+    font-size: 35px;
   }
 
   .hero h2 {
