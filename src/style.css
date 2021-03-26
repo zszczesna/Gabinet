@@ -37,7 +37,7 @@ body,
 }
 
 .box-about {
-  margin: -110px 75px;
+  margin: -110px 25px;
   padding: 30px;
 }
 
@@ -58,16 +58,24 @@ body,
 }
 
 .employee-section img {
-  max-width: 85%;
+  max-width: 60%;
+  margin-left: 82px;
+  margin-top: 45px;
+}
+
+.employee-section p {
+  font-size: 12px;
 }
 
 .contact {
   text-align: center;
   border: 20px;
+  opacity: 0.9;
 }
 
 .contact h1 {
   color: black;
+  font-size: 35px;
 }
 
 .contact h2 {
@@ -129,8 +137,10 @@ body,
   }
 
   .employee-section img {
-    max-width: 100%;
+    max-width: 60%;
     margin-bottom: 20px;
+    margin-left: 60px;
+    margin-top: 0;
   }
 
   .employee-section h1 {
@@ -141,11 +151,12 @@ body,
 
   .employee-section p {
     text-align: center;
+    font-size: 15px;
   }
 
   .contact h1 {
     font-size: 29px;
-    font-weight: 700;
+    font-weight: 300;
   }
 
   .email-link a {
