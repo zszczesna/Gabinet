@@ -137,10 +137,8 @@ body,
   }
 
   .employee-section img {
-    max-width: 60%;
-    margin-bottom: 20px;
-    margin-left: 60px;
-    margin-top: 0;
+    max-width: 100%;
+    margin: -15px 0 25px 0;
   }
 
   .employee-section h1 {
